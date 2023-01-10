@@ -1,0 +1,15 @@
+{
+  "name": "json-vs-proto",
+  "version": "1.0.0",
+  "description": "protobuf_demonstration",
+  "main": "demoProtobuf.js",
+  "scripts": {
+    "start": "node demoJson"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "google-protobuf": "^3.21.2"
+  }
+}
