@@ -82,11 +82,11 @@ session_start();
     <select id="selectAfrica" name="africa" onchange="runSelectAfrica()">
       <option value="africa" selected="selected">Africa<option>
       <?php
-      while($rows = $resultSet->fetch_assoc())
-      {
-        $name = $rows['name'];
-        echo "<option>$name</option>";
-      }
+        while($rows = $resultSet->fetch_assoc())
+        {
+          $name = $rows['name'];
+          echo "<option>$name</option>";
+        }
       ?>
     </select>
     
