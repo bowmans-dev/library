@@ -63,5 +63,6 @@ session_start();
 			<a href="signup.php">Click to Signup</a><br><br>
 		</form>
 	</div>
+  
 </body>
 </html>
