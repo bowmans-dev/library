@@ -60,15 +60,15 @@ session_start();
 
   <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
     Type: <select name="type" id="type">
-        <option value="Type 1 (default)" selected></option>
+      <option value="Type 1 (default)" selected></option>
     </select>  
     <br><br>
     Category: <select name="category" id="category">
-        <option value="Please Select a Category"></option>
+      <option value="Please Select a Category"></option>
     </select>
     <br><br>
     Sub-Category: <select name="subCategory" id="subCategory">
-        <option value="Select a Category (optional)"></option>
+      <option value="Select a Category (optional)"></option>
     </select>
     <br><br>
     <input type="submit" value="Submit">

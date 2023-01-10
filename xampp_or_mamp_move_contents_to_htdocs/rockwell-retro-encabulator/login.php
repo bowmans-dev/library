@@ -38,7 +38,6 @@ session_start();
 	}
 
 ?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -61,6 +60,7 @@ session_start();
 
 			<input id="button" type="submit" value="Login"><br><br>
 			<a href="signup.php">Click to Signup</a><br><br>
+      
 		</form>
 	</div>
   

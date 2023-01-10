@@ -43,5 +43,6 @@ session_start();
 			<a href="login.php">Click to Login</a><br><br>
 		</form>
 	</div>
+  
 </body>
 </html>
